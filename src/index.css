@@ -73,7 +73,6 @@ textarea:focus{
   cursor: pointer;
 }
 .search-bar{
- 
   background: lightgrey;
   width: 100%;
   border-radius: 10px;
@@ -85,8 +84,6 @@ textarea:focus{
 }
 
 .search-text{
- 
-  
   border: none;
   background-color: lightgrey;
   resize: none;

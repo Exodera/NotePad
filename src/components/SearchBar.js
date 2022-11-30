@@ -1,14 +1,8 @@
 import React from 'react'
 import {MdSearch} from 'react-icons/md'
 
-
 const SearchBar = ({filterNoteText}) => {
 
-   
-
-    
-
-    
   return (
     <div className='search-bar'>
         <MdSearch size='1.3rem'/>

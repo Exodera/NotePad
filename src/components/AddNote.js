@@ -12,14 +12,10 @@ const AddNote = ({handleAddNote}) => {
         
     }
 
-   
-
     const handleSaveClick = ()=>{
        if(noteText.trim().length > 0){
         handleAddNote(noteText);
-       }
-        
-       
+       } 
     }
 
     return (
@@ -31,7 +27,6 @@ const AddNote = ({handleAddNote}) => {
             placeholder = 'Type in new note...'
             onChange={handleChange}
             ></textarea>
-
 
             <div className='note-footer'>
                 <small >{charLimit - noteText.length} remaining</small>

@@ -2,7 +2,6 @@ import React from "react"
 import Note from "./Note"
 import AddNote from "./AddNote"
 
-
 const NotesList = ({notes, handleAddNote, handleDelNote}) =>{
     return (
         <div className="notes-list">
